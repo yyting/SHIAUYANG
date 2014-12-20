@@ -1,0 +1,34 @@
+html{min-width:1024px}
+body{width:100%;font:13px/1.6 arial,'\65B0\7D30\660E\9AD4';}
+/*menu-nav*/
+#header {height:180px;}
+.head-top {height:80px;}
+.head-nav {	background-color:#EE7700;height:50px;}
+.head-nav>ul{margin: 0 auto;padding-left: 30px;width:600px;height:50px;}
+.head-nav li {float:left;position:relative;border-right:1px solid #EECC00;width:109px;height:50px;}
+.head-nav li > a {padding:15px 20px ;text-decoration:none;text-align:center;display:block;}
+.head-nav li:hover > .head-nav-subnav {display:block;}
+.head-nav li>a:hover ,.head-nav-subnav {border-bottom:4px solid #eaeaea;}
+.head-nav-subnav {background-color:#EEEE00;width:600px;height:48px;display:none;position:absolute;top:100%;line-height:48px;text-align:center;}
+#livingbox >div{left:-110px;}
+#restaurant >div{left:-220px;}
+.head-nav-subnav >a {text-align:center;text-decoration: none;padding:0 10px;}
+/*cycle*/
+#slides {clear:both;width:800px;height:420px;padding:0;margin:5px auto;clear:both;display:block;}
+#slides .img-1 {background:url(./images/1.jpg) no-repeat scroll 0 0 transparent;background-size:100%;padding:0;width:800px;height:420px;top:0;left:0;}
+#slides .img-2 {background:url(./images/2.jpg) no-repeat scroll 0 0 transparent;background-size:100%;padding:0;width:800px;height:420px;top:0;left:0;}
+#slides .img-3 {background:url(./images/3.jpg) no-repeat scroll 0 0 transparent;background-size:100%;padding:0;width:800px;height:420px;top:0;left:0;}
+#slides .img-4 {background:url(./images/4.jpg) no-repeat scroll 0 0 transparent;background-size:100%;padding:0;width:800px;height:420px;top:0;left:0;}
+/*boxwarp*/
+#pro_grid , #new_pro_grid{width:1024px;height:360px;margin:10px auto;}
+#pro_grid {background-color:#DD8800;}
+#new_pro_grid{background-color:#DD7733;}
+#pro_info > img {width:0px;height:0px;}
+#footer {background-color:#F36;height:200px;margin:0 auto;}
+/*product grid*/
+.pro_show , .new_show {width:200px;height:150px;border:3px solid #eaeaea;float:left;margin:10px 25px;}
+/*test bg change img*/
+.pro_show {background-color:#6F7;}
+.new_show {background-color:#9F3;}
+.pro_show img {width:200px;height:150px;}
+.new_show img {width:200px;height:150px;}
